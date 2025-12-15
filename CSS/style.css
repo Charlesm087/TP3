@@ -303,7 +303,7 @@ nav.nav li a {
   align-items: flex-start;  /* toutes à la même hauteur */
   gap: 200px;                /* espace plus grand entre les vidéos */
   margin: 140px auto;        /* centrer la ligne et ajouter un peu d'espace vertical */
-  flex-wrap: wrap;           /* responsive sur petits écrans */
+
 }
 
 
