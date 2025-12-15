@@ -1,0 +1,339 @@
+
+
+
+
+
+
+
+
+
+
+/*page connexion et inscription*/
+
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+body.login-page {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #cfefff, #3aa0e6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 900px;
+  height: 450px;
+  display: flex;
+}
+
+
+.close {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 28px;
+  height: 28px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.left {
+  width: 40%;
+  background: #0a5f9e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.right {
+  width: 60%;
+  background: linear-gradient(180deg, #e9f2f7, #2e7db7);
+  border-radius: 0 20px 20px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.field {
+  margin-bottom: 25px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+}
+
+.signup {
+  text-align: right;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.signup a {
+  color: black;
+  text-decoration: underline;
+}
+
+.bouton {
+  align-self: center;
+  padding: 12px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #7dd3ff, #1e78b7);
+  color: black;
+  cursor: pointer;
+}
+
+.bouton:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+/*Page accueil*/
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+header.header {
+  display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: #46B4FF; 
+    padding: 15px 30px;
+    gap: 50px;
+}
+
+header.header img {
+    width: 97px 
+}
+
+
+
+.big-title{
+    color:black;
+    font-size: 80px;
+    padding: 20px 40px;
+}
+
+
+nav.nav {
+  display: flex;
+  gap: 95px; 
+  list-style: none;
+}
+
+nav.nav li a {
+  color: white;
+
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+ .nav a {
+    color: #46B4FF;              
+    text-decoration: underline;     
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+  }
+
+
+  .footer {
+    display: flex;               
+    justify-content: flex-start;     
+    align-items: center;         
+    gap: 20px;                   
+    padding: 20px;    
+
+  }
+
+  section.top-page {
+    flex: 1; 
+}
+
+
+
+
+
+
+
+.apropos-content {
+  width: 100%;
+    padding: 40px 60px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.apropos-content .intro {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.apropos-content h2 {
+  color: #46B4FF;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.apropos-content ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.apropos-content li {
+  margin-bottom: 8px;
+}
+
+
+
+
+
+.image-section {
+  width: 100%;
+  margin: 0;        
+  padding: 0;       
+}
+
+.image-section img {
+  width: 100%;     
+  height: auto;     
+  display: block;   
+  border-radius: 0; 
+  box-shadow: none; }
+
+
+
+
+
+
+
+  .contact-map {
+    text-align: center; /* centre le contenu horizontalement */
+    padding: 40px 20px;
+}
+
+.contact-map h2 {
+    color: #46B4FF;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* carte centrée et plus petite */
+.contact-map #map {
+    width: 80%;      /* largeur de la carte (ajuste à ton goût) */
+    max-width: 600px; /* limite la largeur max */
+    height: 350px;   /* hauteur de la carte */
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;  /* centre horizontalement */
+}
+
+
+
+/* Styles pour les informations de contact */
+.contact-info {
+  margin-bottom: 30px;   /* espace entre le texte et la carte */
+  font-size: 18px;       /* taille du texte */
+  color: black;           /* couleur du texte */
+}
+
+.contact-info p {
+  margin: 5px 0;         /* espace entre chaque ligne */
+}
+
+
+
+
+
+
+
+
+.video-row {
+  display: flex;
+  justify-content: center;  /* centre les vidéos */
+  align-items: flex-start;  /* toutes à la même hauteur */
+  gap: 200px;                /* espace plus grand entre les vidéos */
+  margin: 140px auto;        /* centrer la ligne et ajouter un peu d'espace vertical */
+  flex-wrap: wrap;           /* responsive sur petits écrans */
+}
+
+
+.video-card {
+  width: 300px;                   /* même largeur pour toutes */
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-card img {
+  width: 100%;                     /* image prend toute la largeur de la carte */
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  pointer-events: none;
+}
+
+.video-card h3 {
+  font-size: 16px;
+  margin-top: 8px;
+}
