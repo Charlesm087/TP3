@@ -1,14 +1,12 @@
-/* ===========================================
-   Réinitialisation et styles généraux
-   =========================================== */
+
    * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
   }
   
-  /* ===========================================
-     Page Connexion / Inscription
-     =========================================== */
+  /* 
+     Page connexion et Inscription
+      */
   body.login-page {
     margin: 0;
     height: 100vh;
@@ -25,7 +23,7 @@
     display: flex;
   }
   
-  /* Bouton fermeture (X) */
+  /* Bouton pour fermer renvoi page princip */
   .close {
     position: absolute;
     top: 15px;
@@ -42,7 +40,7 @@
     color: black;
   }
   
-  /* Partie gauche avec image */
+  /* partie gauche et image */
   .left {
     width: 40%;
     background: #0a5f9e;
@@ -52,7 +50,7 @@
     justify-content: center;
   }
   
-  /* Partie droite avec formulaire */
+  /* partie droite formulair connexion */
   .right {
     width: 60%;
     background: linear-gradient(180deg, #e9f2f7, #2e7db7);
@@ -68,7 +66,6 @@
     margin-bottom: 40px;
   }
   
-  /* Champs du formulaire */
   .field {
     margin-bottom: 25px;
   }
@@ -118,9 +115,9 @@
     opacity: 0.9;
   }
   
-  /* ===========================================
-     Page Accueil / structure générale
-     =========================================== */
+  /* 
+     page accueil et structure de toutes les page
+      */
   body {
       margin: 0 auto;
       display: flex;
@@ -142,7 +139,7 @@
       width: 97px; 
   }
   
-  /* Section image avec texte superposé */
+  /* Texte superposé a image */
   .image-section {
     position: relative; 
   }
@@ -167,14 +164,8 @@
     color: white; 
   }
   
-  /* Titre principal (rarement utilisé ici) */
-  .big-title {
-      color:black;
-      font-size: 80px;
-      padding: 20px 40px;
-  }
-  
-  /* Menu de navigation */
+ 
+  /* Menu navigation */
   nav.nav {
     display: flex;
     gap: 95px; 
@@ -189,7 +180,7 @@
     border-radius: 5px;
   }
   
-  /* Footer général */
+  /* Footer de toutes les pages */
   .footer {
       display: flex;               
       justify-content: flex-start;     
@@ -202,9 +193,9 @@
       flex: 1; 
   }
   
-  /* ===========================================
-     Page A propos
-     =========================================== */
+  /* 
+     Page a propos
+      */
   .apropos-content {
     width: 100%;
     padding: 40px 60px;
@@ -234,9 +225,7 @@
     margin-bottom: 8px;
   }
   
-  /* ===========================================
-     Images pleine largeur
-     =========================================== */
+  
   .image-section img {
     width: 100%;     
     height: auto;     
@@ -245,9 +234,9 @@
     box-shadow: none; 
   }
   
-  /* ===========================================
+  /* 
      Page Contact
-     =========================================== */
+      */
   .contact-map {
       text-align: center; 
       padding: 40px 20px;
@@ -259,7 +248,7 @@
       font-size: 28px;
   }
   
-  /* Carte Google Maps centrée */
+  /* Carte Google Maps*/
   .contact-map #map {
       width: 80%;      
       max-width: 600px; 
@@ -281,9 +270,9 @@
     margin: 5px 0;        
   }
   
-  /* ===========================================
-     Page A voir / vidéos
-     =========================================== */
+  /* 
+     Page A voir et vidéos
+      */
   .video-row {
     display: flex;
     justify-content: center;  
